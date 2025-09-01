@@ -1,0 +1,161 @@
+2025-09-01 09:40:29.766 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-01 09:40:29.972 +03:00 [DBG] Hosting starting
+2025-09-01 09:40:30.000 +03:00 [DBG] Middleware loaded
+2025-09-01 09:40:30.004 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16505 B).
+2025-09-01 09:40:30.008 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-01 09:40:30.061 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-09-01 09:40:30.071 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-01 09:40:30.076 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-01 09:40:30.151 +03:00 [INF] Now listening on: https://localhost:7068
+2025-09-01 09:40:30.174 +03:00 [INF] Now listening on: http://localhost:5003
+2025-09-01 09:40:30.175 +03:00 [DBG] Loaded hosting startup assembly companyApi
+2025-09-01 09:40:30.177 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-01 09:40:30.181 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-01 09:40:30.183 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-01 09:40:30.202 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-09-01 09:40:30.206 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-09-01 09:40:30.220 +03:00 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v9.0.8.0.
+2025-09-01 09:40:30.377 +03:00 [DBG] Connection id "0HNF949OSLNUA" accepted.
+2025-09-01 09:40:30.377 +03:00 [DBG] Connection id "0HNF949OSLNU9" accepted.
+2025-09-01 09:40:30.384 +03:00 [DBG] Connection id "0HNF949OSLNUA" started.
+2025-09-01 09:40:30.390 +03:00 [DBG] Connection id "0HNF949OSLNU9" received FIN.
+2025-09-01 09:40:30.390 +03:00 [DBG] Connection id "0HNF949OSLNUA" received FIN.
+2025-09-01 09:40:30.391 +03:00 [DBG] Connection id "0HNF949OSLNU9" started.
+2025-09-01 09:40:30.417 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-01 09:40:30.417 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-01 09:40:30.468 +03:00 [DBG] Connection id "0HNF949OSLNU9" stopped.
+2025-09-01 09:40:30.468 +03:00 [DBG] Connection id "0HNF949OSLNUA" stopped.
+2025-09-01 09:40:30.486 +03:00 [DBG] Connection id "0HNF949OSLNU9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-01 09:40:30.486 +03:00 [DBG] Connection id "0HNF949OSLNUA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-01 09:40:30.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-01 09:40:30.598 +03:00 [INF] Hosting environment: Development
+2025-09-01 09:40:30.604 +03:00 [INF] Content root path: C:\Users\Ayman\source\repos\companyApi\companyApi
+2025-09-01 09:40:30.609 +03:00 [DBG] Hosting started
+2025-09-01 09:40:30.690 +03:00 [DBG] Connection id "0HNF949OSLNUB" accepted.
+2025-09-01 09:40:30.703 +03:00 [DBG] Connection id "0HNF949OSLNUB" started.
+2025-09-01 09:40:30.870 +03:00 [DBG] Connection 0HNF949OSLNUB established using the following protocol: "Tls13"
+2025-09-01 09:40:30.981 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-01 09:40:31.017 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-01 09:40:31.035 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-01 09:40:31.057 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-01 09:40:31.071 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-01 09:40:31.087 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "HEADERS" frame for stream ID 1 with length 534 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-01 09:40:31.163 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-01 09:40:31.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-09-01 09:40:31.689 +03:00 [VRB] All hosts are allowed.
+2025-09-01 09:40:31.733 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-09-01 09:40:31.737 +03:00 [DBG] Request did not match any endpoints
+2025-09-01 09:40:31.838 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-09-01 09:40:31.842 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-09-01 09:40:31.846 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "HEADERS" frame for stream ID 1 with length 66 and flags "END_HEADERS".
+2025-09-01 09:40:31.855 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 1 with length 4096 and flags "NONE".
+2025-09-01 09:40:31.873 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 1 with length 922 and flags "NONE".
+2025-09-01 09:40:31.879 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-09-01 09:40:31.887 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 1 with length 81 and flags "NONE".
+2025-09-01 09:40:31.889 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-09-01 09:40:31.903 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-09-01 09:40:31.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 718.3858ms
+2025-09-01 09:40:31.907 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "HEADERS" frame for stream ID 3 with length 75 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-01 09:40:31.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-09-01 09:40:31.995 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "HEADERS" frame for stream ID 3 with length 119 and flags "END_HEADERS".
+2025-09-01 09:40:32.000 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 9986 and flags "NONE".
+2025-09-01 09:40:32.004 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.009 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.014 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "HEADERS" frame for stream ID 5 with length 58 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-01 09:40:32.015 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-01 09:40:32.021 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.029 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "HEADERS" frame for stream ID 5 with length 60 and flags "END_HEADERS".
+2025-09-01 09:40:32.034 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2025-09-01 09:40:32.037 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 5 with length 121 and flags "NONE".
+2025-09-01 09:40:32.046 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.051 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-09-01 09:40:32.055 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.058 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 39.3364ms
+2025-09-01 09:40:32.064 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-09-01 09:40:32.072 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.077 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.083 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.086 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.089 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.092 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.097 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.101 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 10240 and flags "NONE".
+2025-09-01 09:40:32.103 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 1806 and flags "NONE".
+2025-09-01 09:40:32.104 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 155.1224ms
+2025-09-01 09:40:32.106 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-09-01 09:40:32.205 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "HEADERS" frame for stream ID 7 with length 75 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-01 09:40:32.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-09-01 09:40:32.218 +03:00 [VRB] All hosts are allowed.
+2025-09-01 09:40:32.220 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-09-01 09:40:32.221 +03:00 [DBG] Request did not match any endpoints
+2025-09-01 09:40:32.256 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "HEADERS" frame for stream ID 7 with length 65 and flags "END_HEADERS".
+2025-09-01 09:40:32.274 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2025-09-01 09:40:32.279 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 7 with length 1544 and flags "NONE".
+2025-09-01 09:40:32.284 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.1233ms
+2025-09-01 09:40:32.284 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2025-09-01 09:40:59.136 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "HEADERS" frame for stream ID 9 with length 93 and flags "END_HEADERS, PRIORITY".
+2025-09-01 09:40:59.141 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-09-01 09:40:59.141 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - application/json-patch+json 114
+2025-09-01 09:40:59.146 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-09-01 09:40:59.150 +03:00 [VRB] All hosts are allowed.
+2025-09-01 09:40:59.155 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "DATA" frame for stream ID 9 with length 114 and flags "END_STREAM".
+2025-09-01 09:40:59.165 +03:00 [DBG] 1 candidate(s) found for the request path '/api/company/InsertEmployee'
+2025-09-01 09:40:59.168 +03:00 [DBG] Endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)' with route pattern 'api/company/InsertEmployee' is valid for the request path '/api/company/InsertEmployee'
+2025-09-01 09:40:59.173 +03:00 [DBG] Request matched endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:40:59.176 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-01 09:40:59.181 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-09-01 09:40:59.186 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:40:59.220 +03:00 [INF] Route matched with {action = "InsertEmployee", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertEmployee(companyApi.Models.EmployeeDto) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 09:40:59.226 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-01 09:40:59.228 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-01 09:40:59.231 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-01 09:40:59.233 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-01 09:40:59.235 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-01 09:40:59.238 +03:00 [DBG] Executing controller factory for controller companyApi.Controllers.companyController (companyApi)
+2025-09-01 09:40:59.392 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-01 09:40:59.434 +03:00 [DBG] Executed controller factory for controller companyApi.Controllers.companyController (companyApi)
+2025-09-01 09:40:59.446 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'companyApi.Models.EmployeeDto' ...
+2025-09-01 09:40:59.451 +03:00 [DBG] Attempting to bind parameter 'dto' of type 'companyApi.Models.EmployeeDto' using the name '' in request data ...
+2025-09-01 09:40:59.457 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2025-09-01 09:40:59.462 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2025-09-01 09:40:59.477 +03:00 [DBG] Connection id "0HNF949OSLNUB", Request id "0HNF949OSLNUB:00000009": started reading request body.
+2025-09-01 09:40:59.480 +03:00 [DBG] Connection id "0HNF949OSLNUB", Request id "0HNF949OSLNUB:00000009": done reading request body.
+2025-09-01 09:40:59.663 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'companyApi.Models.EmployeeDto'.
+2025-09-01 09:40:59.666 +03:00 [DBG] Done attempting to bind parameter 'dto' of type 'companyApi.Models.EmployeeDto'.
+2025-09-01 09:40:59.668 +03:00 [DBG] Attempting to validate the bound parameter 'dto' of type 'companyApi.Models.EmployeeDto' ...
+2025-09-01 09:40:59.686 +03:00 [DBG] Done attempting to validate the bound parameter 'dto' of type 'companyApi.Models.EmployeeDto'.
+2025-09-01 09:40:59.693 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-01 09:40:59.696 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-01 09:40:59.698 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-09-01 09:40:59.700 +03:00 [DBG] The request has model state errors, returning an error response.
+2025-09-01 09:40:59.702 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-09-01 09:40:59.704 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-09-01 09:40:59.709 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-01 09:40:59.712 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-01 09:40:59.714 +03:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-09-01 09:40:59.716 +03:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-09-01 09:40:59.727 +03:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2025-09-01 09:40:59.731 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2025-09-01 09:40:59.736 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-09-01 09:40:59.741 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-09-01 09:40:59.747 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-09-01 09:40:59.750 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-09-01 09:40:59.852 +03:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2025-09-01 09:40:59.852 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "HEADERS" frame for stream ID 9 with length 80 and flags "END_HEADERS".
+2025-09-01 09:40:59.861 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 9 with length 232 and flags "NONE".
+2025-09-01 09:40:59.855 +03:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-09-01 09:40:59.877 +03:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-09-01 09:40:59.878 +03:00 [VRB] Connection id "0HNF949OSLNUB" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-01 09:40:59.927 +03:00 [INF] Executed action companyApi.Controllers.companyController.InsertEmployee (companyApi) in 679.5708ms
+2025-09-01 09:40:59.930 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:40:59.933 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-09-01 09:40:59.935 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - 400 232 application/problem+json; charset=utf-8 793.7377ms

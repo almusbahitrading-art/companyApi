@@ -1,0 +1,10 @@
+2025-09-01 14:19:20.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/api/company/AllFromFunction - null null
+2025-09-01 14:19:20.972 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.GetAllFromFunction (companyApi)'
+2025-09-01 14:19:20.983 +03:00 [INF] Route matched with {action = "GetAllFromFunction", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[companyApi.Models.EmployeeDto]]] GetAllFromFunction() on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 14:19:21.030 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM SelectAllEmployeeIds()
+2025-09-01 14:19:21.054 +03:00 [INF] Successfully retrieved GetAllFromFunction employees From 22
+2025-09-01 14:19:21.062 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[companyApi.Models.EmployeeDto, companyApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-01 14:19:21.076 +03:00 [INF] Executed action companyApi.Controllers.companyController.GetAllFromFunction (companyApi) in 70.3072ms
+2025-09-01 14:19:21.087 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.GetAllFromFunction (companyApi)'
+2025-09-01 14:19:21.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/api/company/AllFromFunction - 200 2156 application/json; charset=utf-8 156.4959ms

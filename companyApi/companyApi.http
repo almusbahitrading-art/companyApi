@@ -1,0 +1,7 @@
+# @companyApi_HostAddress = http://localhost:5003
+@companyApi_HostAddress = https://localhost:7068
+
+GET {{companyApi_HostAddress}}/api/company/FromFunctionById/8
+Accept: application/json
+
+###

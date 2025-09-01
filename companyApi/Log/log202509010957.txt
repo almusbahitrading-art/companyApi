@@ -1,0 +1,21 @@
+2025-09-01 09:57:32.491 +03:00 [INF] Now listening on: https://localhost:7068
+2025-09-01 09:57:32.553 +03:00 [INF] Now listening on: http://localhost:5003
+2025-09-01 09:57:32.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-09-01 09:57:32.725 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-01 09:57:32.730 +03:00 [INF] Hosting environment: Development
+2025-09-01 09:57:32.734 +03:00 [INF] Content root path: C:\Users\Ayman\source\repos\companyApi\companyApi
+2025-09-01 09:57:33.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 1152.9255ms
+2025-09-01 09:57:34.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-01 09:57:34.204 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-09-01 09:57:34.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 52.9006ms
+2025-09-01 09:57:34.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 176.8779ms
+2025-09-01 09:57:34.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-09-01 09:57:35.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 252.4067ms
+2025-09-01 09:57:41.981 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - application/json-patch+json 114
+2025-09-01 09:57:42.018 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:57:42.104 +03:00 [INF] Route matched with {action = "InsertEmployee", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertEmployee(companyApi.Models.EmployeeDto) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 09:57:42.482 +03:00 [WRN] InsertEmployee called with invalid DTO: {"Id":0,"Name":"","Department":"string","Salary":50000,"HireDate":"2025-09-01T06:57:38.4040000Z","$type":"EmployeeDto"}
+2025-09-01 09:57:42.509 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-09-01 09:57:42.517 +03:00 [INF] Executed action companyApi.Controllers.companyController.InsertEmployee (companyApi) in 401.627ms
+2025-09-01 09:57:42.519 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:57:42.525 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - 400 null text/plain; charset=utf-8 543.7231ms

@@ -1,0 +1,1 @@
+2025-09-01 09:56:51.338 +03:00 [WRN] InsertEmployee called with invalid DTO: {"Id":0,"Name":"","Department":"string","Salary":50000,"HireDate":"2025-09-01T06:56:46.7270000Z","$type":"EmployeeDto"}

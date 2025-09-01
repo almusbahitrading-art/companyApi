@@ -1,0 +1,15 @@
+2025-09-01 14:18:45.376 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7068/api/company/FromFunctionById/4 - null null
+2025-09-01 14:18:45.502 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.GetFromFunctionById (companyApi)'
+2025-09-01 14:18:45.519 +03:00 [INF] Route matched with {action = "GetFromFunctionById", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[companyApi.Models.EmployeeDto]]] GetFromFunctionById(Int32) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 14:18:45.854 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM employees AS e
+    WHERE e.id = @__id_0)
+2025-09-01 14:18:46.052 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM GetEmployeeByIds(@p0)
+2025-09-01 14:18:46.077 +03:00 [INF] Successfully retrieved employees for Id 4
+2025-09-01 14:18:46.093 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[companyApi.Models.EmployeeDto, companyApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-01 14:18:46.138 +03:00 [INF] Executed action companyApi.Controllers.companyController.GetFromFunctionById (companyApi) in 606.32ms
+2025-09-01 14:18:46.143 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.GetFromFunctionById (companyApi)'
+2025-09-01 14:18:46.152 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7068/api/company/FromFunctionById/4 - 200 100 application/json; charset=utf-8 784.5443ms

@@ -1,0 +1,13 @@
+2025-09-01 09:59:16.485 +03:00 [INF] Now listening on: https://localhost:7068
+2025-09-01 09:59:16.670 +03:00 [INF] Now listening on: http://localhost:5003
+2025-09-01 09:59:16.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - null null
+2025-09-01 09:59:17.188 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-01 09:59:17.199 +03:00 [INF] Hosting environment: Development
+2025-09-01 09:59:17.216 +03:00 [INF] Content root path: C:\Users\Ayman\source\repos\companyApi\companyApi
+2025-09-01 09:59:17.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - 200 null text/html;charset=utf-8 1016.9227ms
+2025-09-01 09:59:18.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2025-09-01 09:59:18.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-01 09:59:18.206 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 203.6656ms
+2025-09-01 09:59:18.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 397.1817ms
+2025-09-01 09:59:18.797 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - null null
+2025-09-01 09:59:19.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 223.4198ms

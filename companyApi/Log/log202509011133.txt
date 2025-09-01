@@ -1,0 +1,11 @@
+2025-09-01 11:33:48.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7068/api/company/ByHireDate?hire_date=2025-09-01 - null null
+2025-09-01 11:33:48.928 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.GetEmployeesByHireDate (companyApi)'
+2025-09-01 11:33:48.953 +03:00 [INF] Route matched with {action = "GetEmployeesByHireDate", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[companyApi.Models.EmployeeDto]]] GetEmployeesByHireDate(System.DateTime) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 11:33:48.983 +03:00 [INF] Start excute GetEmployeesByHireDate
+2025-09-01 11:33:49.056 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[p0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM SelectByHireDate(CAST(@p0 AS DATE))
+2025-09-01 11:33:49.065 +03:00 [INF] Done excute GetEmployeesByHireDate from companyController page line 351 hire_date "2025-09-01T00:00:00.0000000".
+2025-09-01 11:33:49.069 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[companyApi.Models.EmployeeDto, companyApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-01 11:33:49.075 +03:00 [INF] Executed action companyApi.Controllers.companyController.GetEmployeesByHireDate (companyApi) in 113.3525ms
+2025-09-01 11:33:49.091 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.GetEmployeesByHireDate (companyApi)'
+2025-09-01 11:33:49.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7068/api/company/ByHireDate?hire_date=2025-09-01 - 200 216 application/json; charset=utf-8 185.4097ms

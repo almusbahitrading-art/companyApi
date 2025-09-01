@@ -1,0 +1,8 @@
+2025-09-01 09:49:08.148 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - application/json-patch+json 114
+2025-09-01 09:49:08.180 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:49:08.249 +03:00 [INF] Route matched with {action = "InsertEmployee", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertEmployee(companyApi.Models.EmployeeDto) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 09:49:09.329 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-09-01 09:49:09.599 +03:00 [INF] Executed action companyApi.Controllers.companyController.InsertEmployee (companyApi) in 1327.8696ms
+2025-09-01 09:49:09.606 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 09:49:09.616 +03:00 [INF] HTTP POST /api/company/InsertEmployee responded 400 in 1438.6123 ms
+2025-09-01 09:49:09.630 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - 400 232 application/problem+json; charset=utf-8 1481.8237ms

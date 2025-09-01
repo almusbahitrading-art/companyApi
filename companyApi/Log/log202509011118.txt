@@ -1,0 +1,11 @@
+2025-09-01 11:18:23.278 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - application/json-patch+json 139
+2025-09-01 11:18:23.301 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 11:18:23.305 +03:00 [INF] Route matched with {action = "InsertEmployee", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertEmployee(companyApi.Models.EmployeeDto) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 11:18:23.315 +03:00 [INF] Start excute InsertEmployee
+2025-09-01 11:18:23.375 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@op_type='?', @emp_id='?' (DbType = Object), @name='?', @department='?', @salary='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+CALL employee_operation(@op_type, @emp_id, @name, @department, @salary);
+2025-09-01 11:18:23.381 +03:00 [INF] Done excute InsertEmployee from companyController page line 188
+2025-09-01 11:18:23.384 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-09-01 11:18:23.394 +03:00 [INF] Executed action companyApi.Controllers.companyController.InsertEmployee (companyApi) in 84.5022ms
+2025-09-01 11:18:23.400 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.InsertEmployee (companyApi)'
+2025-09-01 11:18:23.404 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7068/api/company/InsertEmployee - 201 null text/plain; charset=utf-8 125.6526ms

@@ -1,0 +1,16 @@
+2025-09-01 11:29:21.077 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7068/api/company/142 - null null
+2025-09-01 11:29:21.098 +03:00 [INF] Executing endpoint 'companyApi.Controllers.companyController.DeleteEmployee (companyApi)'
+2025-09-01 11:29:21.103 +03:00 [INF] Route matched with {action = "DeleteEmployee", controller = "company"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployee(Int32) on controller companyApi.Controllers.companyController (companyApi).
+2025-09-01 11:29:21.108 +03:00 [INF] Start excute DeleteEmployee
+2025-09-01 11:29:21.126 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM employees AS e
+    WHERE e.id = @__id_0)
+2025-09-01 11:29:21.167 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@op_type='?', @emp_id='?' (DbType = Int32), @emp_name='?' (DbType = Object), @emp_department='?' (DbType = Object), @emp_salary='?' (DbType = Object)], CommandType='"Text"', CommandTimeout='30']
+CALL employee_operation(@op_type,@emp_id,@emp_name,@emp_department,@emp_salary)
+2025-09-01 11:29:21.176 +03:00 [INF] Done excute DeleteEmployee from companyController page line 145 and delete employee Id 142.
+2025-09-01 11:29:21.182 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-09-01 11:29:21.186 +03:00 [INF] Executed action companyApi.Controllers.companyController.DeleteEmployee (companyApi) in 78.9859ms
+2025-09-01 11:29:21.189 +03:00 [INF] Executed endpoint 'companyApi.Controllers.companyController.DeleteEmployee (companyApi)'
+2025-09-01 11:29:21.194 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7068/api/company/142 - 200 null text/plain; charset=utf-8 116.8562ms

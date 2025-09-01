@@ -1,0 +1,7 @@
+2025-09-01 09:43:44.810 +03:00 [DBG] Connection id "0HNF949OSLNUB" is closing.
+2025-09-01 09:43:44.833 +03:00 [DBG] Connection id "0HNF949OSLNUB" is closed. The last processed stream ID was 11.
+2025-09-01 09:43:44.837 +03:00 [VRB] Connection id "0HNF949OSLNUB" sending "GOAWAY" frame for stream ID 0 with length 8 and flags 0x0.
+2025-09-01 09:43:44.869 +03:00 [DBG] Connection id "0HNF949OSLNUB" received FIN.
+2025-09-01 09:43:44.876 +03:00 [DBG] Connection id "0HNF949OSLNUB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-01 09:43:44.875 +03:00 [DBG] The connection queue processing loop for 0HNF949OSLNUB completed.
+2025-09-01 09:43:44.883 +03:00 [DBG] Connection id "0HNF949OSLNUB" stopped.
