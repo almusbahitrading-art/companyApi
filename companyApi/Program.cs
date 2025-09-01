@@ -11,7 +11,10 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File("Log/log.txt", rollingInterval: RollingInterval.Minute)
     .CreateLogger();
 
+var connectionString = Environment.GetEnvironmentVariable("Database_Url");
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(connectionString));
 
 builder.Services.AddSerilog();
 builder.Host.UseSerilog();
